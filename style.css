@@ -1,0 +1,136 @@
+/*todo o programa*/
+body { 
+    color: #6F233F;
+    background-color: rosybrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*menu de navegção*/
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    
+}
+
+nav a {
+    margin: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rosybrown;
+    background-color: #6d203c;
+    font-size: 1em;
+    border: 1px #6F233F;
+    border-style: double;
+    border-radius: 5px;
+    padding: 0.2%;
+}
+
+nav a:hover{
+    background-color: #A0445D;
+    font-size: 1em;
+    border: 1px #6F233F;
+    border-style: double;
+    border-radius: 5px;
+}
+
+/*nome do projeto*/
+header h1 {
+    background-color: #6F233F;
+    color: rosybrown;
+    font-size: 2.5em;
+    border: 1px #6F233F;
+    border-style: double;
+    border-radius: 15px;
+    padding: 1%;
+
+    font-family: 'Bestime'
+}
+
+@font-face {
+    font-family: 'Bestime';
+    src: url("./Bestime.ttf");
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+/*minha foto de perfil*/
+div #foto-perfil { 
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 100%;
+    border: 5px #8D0240;
+    border-style:double;
+
+    text-align: center;
+    
+}
+
+.img-perfil {
+    text-align: center;
+}
+
+/*apresentação*/
+h3 {
+    text-align: center;
+}
+
+
+/*textos do programa (sobre mim e o objetivo do trabalho)*/
+section { 
+    margin: 10px auto;
+    padding: 30px;
+    border: 1px #6F233F;
+    border-style: double;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+
+/*tabela*/
+.tabela {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px #6d203c;
+
+}
+
+td {
+    text-align: center;
+}
+
+/*rodapé*/
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
